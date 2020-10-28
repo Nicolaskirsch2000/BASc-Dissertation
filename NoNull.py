@@ -36,3 +36,4 @@ e = df.groupby('LCLid')['KWH/hh (per half hour) '].apply(lambda df: df.reset_ind
 time =  df.iloc[range(0,17532),2]
 e.columns = time
 
+print("fffffffff")
