@@ -28,3 +28,6 @@ df = df[df["year"] == 2013]
 #Group by LCLid and keep only those with enough entries in 2013
 df['KWH/hh (per half hour) '] = df['KWH/hh (per half hour) '].replace('Null',np.nan)
 groups = df.groupby("LCLid")['KWH/hh (per half hour) '].apply(lambda x: len(x))
+
+
+house1 = df[df["LCLid"] == "MAC000036"]

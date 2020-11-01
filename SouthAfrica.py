@@ -30,8 +30,6 @@ grp = grp[grp>2]
 
 df= df[df["ProfileID"].isin(grp.index)]
 
-df.sort_values("ProfileID") 
-
 
 
 year = pd.date_range("01/01/2013 00:00", "31/12/2013 23:00", freq="1h")
