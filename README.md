@@ -3,10 +3,15 @@ This repository correspond to Nicolas Kirsch third year BAsc dissertation at UCL
 For the different scripts to function, the directory should be organised as follow: 
 
 Root
+
 |
+
 |
+
 -------Data
+
          |
+         
          --------Londondata
                   |
                   -----Power-Networks-LCL-June2015(withAcornGps)v2_1.csv
